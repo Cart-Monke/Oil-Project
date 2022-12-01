@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax_group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50vh 0;
+}
+
+.foreground {
+  transform: translateZ(0);
+}
+
+.leaf {
+  background-image: url(/images/foreground.png);
+  transform: translateZ(-1px) scale(2);
+  background-size: cover;
+}
+
+.background {
+  background-image: url(/images/background.png);
+  transform: translateZ(-2px) scale(3.05);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 6em;
+  color: #023020;
+}
