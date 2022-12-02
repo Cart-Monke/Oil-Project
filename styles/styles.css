@@ -89,3 +89,9 @@ p {
   margin: auto;
   width: 40%;
 }
+.header__underline {
+  height: 2px;
+  width: 80%;
+  background-color: #023020;
+  margin: auto;
+}
