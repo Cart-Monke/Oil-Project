@@ -40,7 +40,32 @@
   background-size: cover;
 }
 
+.foreground h1 {
+  font-size: 6em;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(0%, -50%);
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.content {
+  height: fit-content;
+  background-color: #fae6c8;
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+}
+
 h1 {
   font-size: 6em;
+  text-align: center;
   color: #023020;
+}
+.header__underline {
+  height: 2px;
+  width: 80%;
+  background-color: #023020;
+  margin: auto;
 }
