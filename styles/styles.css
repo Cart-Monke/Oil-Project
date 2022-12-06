@@ -106,3 +106,13 @@ h2 {
 .paragraph--1 {
   position: relative;
 }
+
+.button {
+  background-color: #fae6c8;
+  color: #023020;
+  width: 40%;
+  font-size: 3em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
