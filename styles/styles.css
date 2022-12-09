@@ -154,3 +154,20 @@ footer a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.2rem;
 }
+
+.image {
+  border: red solid 1px;
+  height: auto;
+  width: 20%;
+  position: absolute;
+}
+
+.image--1 {
+  transform: rotate(-10deg) translate(20%);
+  top: 50%;
+}
+
+.paragraph--1 {
+  position: relative;
+  margin-bottom: 4%;
+}
