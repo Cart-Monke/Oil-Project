@@ -25,9 +25,8 @@ h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #023020;
-  text-align: center;
-  margin-top: 5%;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 .parallax {
@@ -86,17 +85,28 @@ h2 {
   background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
 }
 
+h1 {
+  font-size: 6em;
+  text-align: center;
+  color: #023020;
+  padding: 5% 0% 4% 0%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .header__underline {
   height: 2px;
   width: 80%;
   background-color: #023020;
   margin: auto;
 }
+
 .image {
   height: auto;
   width: 20%;
   position: absolute;
 }
+
 .image--1 {
   transform: rotate(-10deg) translate(20%);
   top: 50%;
