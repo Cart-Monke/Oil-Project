@@ -10,8 +10,8 @@
   <body>
     <div class="parallax">
       <div class="parallax_group hero">
-        <div class="parallax_layer background"></div>
-        <div class="parallax_layer leaf"></div>
+        <div class="parallax_layer background" id="index__background"></div>
+        <div class="parallax_layer leaf" id="index__leaf"></div>
         <div class="parallax_layer foreground">
           <h1>
             THE <br />
@@ -60,7 +60,14 @@
             sold on the shelf.
           </p>
           <h2>So What's The Problem?</h2>
-          <button type="button" class="button">The Dangers</button>
+          <button
+            type="button"
+            class="button"
+            onclick="window.location.href='/dangers.html';"
+          >
+            The Dangers
+          </button>
+        </div>
       </section>
       <footer>
         <section class="footer__nav">
